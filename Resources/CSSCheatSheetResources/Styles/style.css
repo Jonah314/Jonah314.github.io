@@ -1,11 +1,17 @@
 p {
-    color: blue;
+    color:pink;
     background-color: hsla(0, 0%, 50%, .8);
 }
 
 tr{
     background-color: hsla(0, 0%, 50%, .8);
 }
+
+.center{
+        display: block;
+        margin: 0px auto;
+}
+
 
 table , th, td {
     border: 1px solid black;
@@ -17,6 +23,7 @@ h1{
     background-color: hsla(0,0%,50%,.8);
 }
 
-body {
+/*body {
     background-image: url("/Resources/CSSCheatSheetResources/images/cool-colorful-abstract-geometric-shapes-mlas3z283czbpw6t\ \(1\).jpg");
 }
+    */
