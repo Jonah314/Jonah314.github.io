@@ -34,11 +34,12 @@ h2{
     background-color: blanchedalmond;
     font-family:'Courier New', Courier, monospace;
     /*------ Pushing whole body to the side to have a Side nav bar ---- */
-    margin-left: 210px;
+    margin-left: 220px;
 }
 body{
     background-color: blanchedalmond;
     font-family:'Courier New', Courier, monospace;
+    
 }
 
 /*---------Top NavBar ---------*/
@@ -59,6 +60,7 @@ header{
     line-height: 20px;
     padding: 10px;
     text-align:center;
+    padding: 40px;
     
 }
  .topnav li{
@@ -81,8 +83,8 @@ header{
     width: 200px;
     position: fixed;
     z-index: 1;
-    top: 70px;;
-    left:0;
+    top: 120px;;
+    left:10;
     background-color: cornsilk;
     overflow-x: hidden;
     padding-top: 20px;
