@@ -3,6 +3,10 @@ p {
     background-color: hsla(0, 0%, 50%, .8);
 }
 
+tr{
+    background-color: hsla(0, 0%, 50%, .8);
+}
+
 table , th, td {
     border: 1px solid black;
     background-color: hsla(0,0%,50%,.8);
