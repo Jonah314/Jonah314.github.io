@@ -36,12 +36,39 @@ body {
     /*------ Pushing whole body to the side to have a Side nav bar ---- */
     margin-left: 210px;
 }
+
+/*---------Top NavBar ---------*/
+.topnav a {
+    text-decoration: none;
+    color: black;
+    
+    padding: 8px;
+}
+.topnav  a:hover{
+    text-decoration: underline;
+    color: white;
+    transform: scale(1.1);
+}
+
 header{
     background-color:tan;
     line-height: 20px;
     padding: 10px;
+    text-align:center;
+    
+}
+ .topnav li{
+    display: inline;
+    
 }
 
+
+.topnav li+li::before{
+    content: "|";
+    color: black;
+}
+
+/*------------------------------*/
 
 
 /*------ Side Bar Syling --------- */
