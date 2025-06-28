@@ -1,11 +1,9 @@
 p {
     color:black;
-    background-color: hsla(0, 0%, 50%, .5);
+    
 }
 
-tr{
-    background-color: hsla(0, 0%, 50%, .5);
-}
+
 
 .center {
         
@@ -15,16 +13,21 @@ tr{
 
 table , th, td {
     border: 1px solid black;
-    background-color: hsla(0,0%,50%,.5);
+    background-color: cornsilk;
 
 }
 
 h1{
     text-align: center;
-    background-color: hsla(0,0%,50%,.5);
+    background-color: brown;
+}
+h2{
+    text-align: center;
+    background-color: goldenrod;
 }
 
 body {
-    background-image: url("/Resources/CSSCheatSheetResources/images/cool-colorful-abstract-geometric-shapes-mlas3z283czbpw6t\ \(1\).jpg");
+    /*background-image: url("/Resources/CSSCheatSheetResources/images/cool-colorful-abstract-geometric-shapes-mlas3z283czbpw6t\ \(1\).jpg"); */
+    background-color: blanchedalmond;
 }
     
