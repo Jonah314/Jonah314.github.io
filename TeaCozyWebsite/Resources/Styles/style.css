@@ -17,20 +17,12 @@ header {
     /*Making header stick on top */
     position: sticky;
     top:0;
-
+    width:1200px;
     height: 50px;
-    padding:10px;
-
-
-    
+    padding:10px;    
 }
 .logo img{
-   height: 50px;
-  
-}
-.nav {
-   
-   
+   height: 50px; 
 }
 ul li {
     display: inline-block;
@@ -45,5 +37,101 @@ a {
 }
 a:hover{
     color: brown;
+}
+/*-----Banner Styling -----*/
+.banner {
+    width:1200px;
+    height:700px;
+    background-image:url("../Images/img-mission-background.jpg");
+    display: flex;
+    align-items: center;
+    justify-content: center;;
+}
+.titlebox{
+    width:1200px;
+    background: black;
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+
+/*----- Content1 Styling ----*/
+
+.content1{
+    width:1000px;
+    
+}
+.content1 h2, .content1 p {
+    text-align: center;
+}
+.conCon {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin:10px;
+    
+    
+
+}
+.imgCon{
+    width:300px;
+    margin-left: 25px;
+    
+}
+
+.imgCon img{
+    max-width: 300px;
+    max-height: 200px;
+    display: block;
+
+    
+}
+.imgCon p {
+    margin: 10px;
+}
+/*------ Section 3 Locations ---- */
+.locations {
+    width:1200px;
+    height:500px;
+    background-image:url("../Images/img-locations-background.jpg");
+    display: grid;
+    grid-template-rows: 1fr 2fr 1fr ;
+    justify-items: center;
+    
+    
+}
+.one{
+    display:flex;
+    align-items: flex-end;
+}
+.locHeader h2{
+    margin: 15px;
+}
+.box {
+    width:300px;
+    background-color: black;
+    display: inline-block;
+    justify-items: center;    
+    align-items: center;
+    
+    margin-right: 40px;
+}
+/*----- Footer ----*/
+footer{
+    height:200px;
+    display: wrap;
+    justify-items:center;
+}
+.copyright p {
+    position: relative;
+    bottom:0px;
+    left: 20px;
     
 }
