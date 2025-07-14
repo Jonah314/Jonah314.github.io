@@ -1,3 +1,229 @@
-p{
-    color: red
+*{
+    box-sizing: border-box;
+    font-family: Tahoma;
 }
+
+p{
+    
+}
+header{
+    background-color: aqua;
+    width:1200px;
+    display:flex;
+    justify-content: center;
+    justify-self:center;
+}
+h4{
+    text-align: center;
+}
+.webPageContainer{
+    display:grid;
+    width: 1200px;
+    margin:auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.box{
+    background-color: aqua;
+    border: 2px solid black;
+    
+}
+.dayHeader{
+    grid-column: span 3;
+    place-self: center;
+}
+.day{
+    grid-column:  span 2;
+    border:1px solid red;
+}
+.ImageContainer{
+    width: 400px;
+    
+}
+img{
+    width: 100%
+    
+}
+
+/* ------ Naples Container ----- */
+.NaplesContainer{
+    grid-column: span 3;
+    display:grid;
+    gap: 0px;
+    width:1140px;
+    
+    grid-template-columns: repeat(4, 1fr);
+    box-sizing: border-box;
+    
+}
+.NaplesContainer img{
+
+    height:200px;
+    object-fit:cover;
+    border-radius: 25px;
+    border: 2px solid black;
+
+}
+.NaplesContainer .ImageContainer{
+    
+    width:300px;
+    height:200px;
+    border: 1px solid black;
+}
+.NaplesContainer h1{
+    text-align: center;
+}
+.NaplesContainer p{
+    text-align: left;
+    padding: 0 10px;
+    
+}
+
+/*-------- Day Box -----*/
+.dayBox{
+    display: grid;
+    grid-template-rows: 80px 50px 200px 1fr;
+    background-color: #273F4F;
+    color:white;
+    border-radius: 25px;
+    
+    border:2px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.dayBox p,a {
+    text-align: left;
+    color:white;
+    text-indent: 2em;
+}
+.dayBox img{
+    width: 280px;
+    margin-left: 8px;
+}
+.dayBox h4{
+    font-size: large;
+}
+
+
+/*--------------------------------------------------------------------------*/
+
+.webPageContainer2{
+    display:grid;
+    max-width: 1200px;
+    margin: auto;
+    grid-template-columns: 7fr 4fr;
+    column-gap: 60px;
+}
+.calanderContainer{
+    max-width: 700px;
+    grid-template-rows:repeat(238px 1fr 1fr) ;
+}
+.calanderContainer img{
+    width:100%;
+    height: auto;
+    aspect-ratio: 16/7;
+    border-radius: 25px;
+}
+.calanderContainer p {
+    text-indent: 2em;
+    font-size: large;
+}
+/*---------- Accomodation Box-----------*/
+.AccomadtionsColumns{
+    display:grid;
+    grid-template-columns: 238px 1fr ;
+    column-gap: 15px;
+    row-gap: 15px;
+}
+
+
+
+
+.AccomodationBox{
+    width:238px;
+    background-color: hsla(9, 100%, 64%, 0.2);
+    border-radius: 25px;
+    
+}
+.AccomodationBox img {
+    width:100%;
+    aspect-ratio: 3/2;
+}
+.calanderContainer h5{
+    color:grey;
+    font-size: 20px;
+    margin-bottom: 4px;
+}
+.amenities{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows:1fr 1fr 1fr;
+    
+    
+}
+.amenities p{
+    text-align: start;
+    text-indent: 0;
+    
+}
+.amenities i {
+    font-size: small;
+
+    
+}
+.amenities div {
+    grid-column-start: 2;
+}
+.AccomodationBox a{
+    color:blue;
+    align-self: center;
+    line-height: 50px;
+}
+.AccomodationBox a:hover{
+    color:black;
+    transform: scale(1.01);
+
+}
+.center{
+    text-align: center;
+}
+
+/*------- ActivitiesBox -------*/
+.ActivitiesColumns{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 15px;
+}
+
+
+.ActivitiesBox{
+    width:200px;
+    background-color: hsla(86, 100%, 64%, 0.2);
+    border-radius: 25px;
+}
+.ActivitiesBox:hover{
+    transform: scale(1.09);
+    border: 1px solid grey;
+    
+}
+.ActivitiesBox img{
+    height: 158px;
+}
+
+.ActivitiesBox a {
+    color:blue;
+    align-self: center;
+}
+.ActivitiesBox a:hover{
+    color:black;
+    transform: scale(1.5);
+}
+.ActivitiesBox p{
+    text-align: center;
+    padding: 5px;
+    text-indent: 0;
+    font-size: medium;
+    
+}
+
