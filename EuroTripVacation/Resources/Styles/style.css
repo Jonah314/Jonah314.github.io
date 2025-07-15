@@ -2,16 +2,85 @@
     box-sizing: border-box;
     font-family: Tahoma;
 }
+/* ---------- Banner --------*/
+.bannerOverlay{
+    background-color: hsla(0, 0%, 0%, .05);
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height:100%;
+}
+.bannerWrapper{
+    position:relative;
+    max-width:1200px;
+    justify-self: center;
+}
+.bannerTitle{
+    justify-self: center;
+    position: absolute;
+    top:50%;
+    left:0;
+    width:100%;
+    height: 25%;
+    color:white;
+    text-align: center;
+    align-content: center;
+    background-color: hsla(0, 0%, 0%, .5);
+   
+    font-size: larger;
 
-p{
+}
+.bannerRow{
+    display:flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    max-width: 1200px;
+    justify-self: center;
+    background-color: black;
+}
+.bannerColumn{
+    flex: 25%;
+    max-width: 25%;
+    padding: 2px 4px;
     
 }
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+.aboutSection{
+    width: 900px;
+    text-indent: 2em;
+    justify-self:center;
+    font-size: large;
+    margin: 500px, auto;
+    padding: 50px;
+    border: 1px solid red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 header{
     background-color: aqua;
-    width:1200px;
+    width:100%;
     display:flex;
     justify-content: center;
     justify-self:center;
+    position:sticky;
+    top:0;
+    z-index: 2;
+
 }
 h4{
     text-align: center;
@@ -83,7 +152,7 @@ img{
 /*-------- Day Box -----*/
 .dayBox{
     display: grid;
-    grid-template-rows: 80px 50px 200px 1fr;
+    grid-template-rows: 120px 50px 200px 1fr;
     background-color: #273F4F;
     color:white;
     border-radius: 25px;
