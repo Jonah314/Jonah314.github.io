@@ -2,6 +2,25 @@
     box-sizing: border-box;
     font-family: Tahoma;
 }
+/*--------- Header/NavBar-------------*/
+header{
+    background-color: aqua;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    justify-self:center;
+    position:sticky;
+    top:0;
+    z-index: 2;
+}
+h4 {
+    text-align: center;
+}
+img {
+    width:100%;
+}
+
+
 /* ---------- Banner --------*/
 .bannerOverlay{
     background-color: hsla(0, 0%, 0%, .05);
@@ -31,6 +50,7 @@
     font-size: larger;
 
 }
+/*--------- Banner Section Images --------*/
 .bannerRow{
     display:flex;
     flex-wrap: wrap;
@@ -50,6 +70,8 @@
     vertical-align: middle;
     width: 100%;
 }
+
+/* ------ Content Section 1 About -----*/
 .aboutSection{
     width: 900px;
     text-indent: 2em;
@@ -57,76 +79,35 @@
     font-size: large;
     margin: 500px, auto;
     padding: 50px;
-    border: 1px solid red;
+    padding-bottom: 60px;
+    
 }
-
-
-
-
-
-
-
-
-
-
-
-
-header{
-    background-color: aqua;
-    width:100%;
-    display:flex;
-    justify-content: center;
-    justify-self:center;
-    position:sticky;
-    top:0;
-    z-index: 2;
-
-}
-h4{
+.aboutSection h2 {
     text-align: center;
 }
-.webPageContainer{
-    display:grid;
-    width: 1200px;
-    margin:auto;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 10px;
-}
 
+/*-----------Content Section 2 Itenary by city -----*/
 .box{
     background-color: aqua;
-    border: 2px solid black;
-    
+    border: 2px solid black; 
 }
-.dayHeader{
-    grid-column: span 3;
-    place-self: center;
+.title{
+    grid-column: span 4;
 }
-.day{
-    grid-column:  span 2;
-    border:1px solid red;
+.title h2{
+    justify-self: center;
+    font-size: 30px;
 }
-.ImageContainer{
-    width: 400px;
-    
-}
-img{
-    width: 100%
-    
-}
-
-/* ------ Naples Container ----- */
-.NaplesContainer{
+.WebPageContainer1{
     grid-column: span 3;
     display:grid;
-    gap: 0px;
-    width:1140px;
-    
+    gap: 10px;
+    width:1200px;
+    justify-self:center;
     grid-template-columns: repeat(4, 1fr);
     box-sizing: border-box;
-    
 }
-.NaplesContainer img{
+.WebPageContainer1 img{
 
     height:200px;
     object-fit:cover;
@@ -134,22 +115,21 @@ img{
     border: 2px solid black;
 
 }
-.NaplesContainer .ImageContainer{
+.WebPageContainer1 .ImageContainer{
     
     width:300px;
     height:200px;
     border: 1px solid black;
 }
-.NaplesContainer h1{
+.WebPageContainer1 h1 h2{
     text-align: center;
 }
-.NaplesContainer p{
+.WebPageContainer1 p{
     text-align: left;
     padding: 0 10px;
-    
 }
 
-/*-------- Day Box -----*/
+/*-------- Content Section 2 City/Day Box -----*/
 .dayBox{
     display: grid;
     grid-template-rows: 120px 50px 200px 1fr;
@@ -175,7 +155,7 @@ img{
 }
 
 
-/*--------------------------------------------------------------------------*/
+/*----------------------Content Section 3 Itenary By the Day ---------------------------------*/
 
 .webPageContainer2{
     display:grid;
@@ -183,6 +163,14 @@ img{
     margin: auto;
     grid-template-columns: 7fr 4fr;
     column-gap: 60px;
+}
+.calanderContainerTitle{
+    grid-column: 1/span 2;
+}
+.calanderContainerTitle h2{
+    justify-self: center;
+    font-size: 30px;
+    padding: 60px 0;
 }
 .calanderContainer{
     max-width: 700px;
@@ -205,6 +193,7 @@ img{
     column-gap: 15px;
     row-gap: 15px;
 }
+
 
 
 
