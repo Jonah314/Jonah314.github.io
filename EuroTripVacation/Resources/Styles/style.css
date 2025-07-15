@@ -32,7 +32,8 @@ img {
 }
 .bannerWrapper{
     position:relative;
-    max-width:1200px;
+    max-width:100%;
+    max-height:720px;
     justify-self: center;
 }
 .bannerTitle{
@@ -55,9 +56,12 @@ img {
     display:flex;
     flex-wrap: wrap;
     padding: 0 4px;
-    max-width: 1200px;
+    max-width: 100%;
+    max-height: 780px;
+    overflow:hidden;
     justify-self: center;
     background-color: black;
+    
 }
 .bannerColumn{
     flex: 25%;
@@ -69,6 +73,7 @@ img {
     margin-top: 8px;
     vertical-align: middle;
     width: 100%;
+   
 }
 
 /* ------ Content Section 1 About -----*/
@@ -170,7 +175,7 @@ img {
 .calanderContainerTitle h2{
     justify-self: center;
     font-size: 30px;
-    padding: 60px 0;
+    padding: 0px 0;
 }
 .calanderContainer{
     max-width: 700px;
@@ -285,3 +290,85 @@ img {
     
 }
 
+
+
+
+
+
+
+/*---------- Responsive sizing ------ */
+@media only screen and (min-width:600px){
+    .phoneScreen{
+        display:none;
+    }
+}
+
+
+
+
+@media only screen and (max-width:600px){
+/*--------- Content Section 1 About ------ */
+.aboutSection  {
+    width: 100%;
+}
+.abuotSection h2{
+    text-indent: 0em;;
+}
+.aboutSection p {
+    text-indent: 0em;
+    text-align: center;
+    font-size: larger;
+}
+
+/*------------ WebPage 2 Section ------ */
+.bigScreen{
+    display:none;
+}
+.webPageContainer2{
+    display:grid;
+    max-width: 100%;
+    
+    grid-template-columns: 1fr;
+    column-gap: 0;
+}
+.box{
+    display:none;
+}
+.AccomadtionsColumns{
+     width:100%;
+     display:grid;
+    grid-template-columns: 1fr ;
+    
+}
+.AccomodationBox{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+}
+.AccomodationBox img {
+    height: 100%;
+}
+.amenities {
+    padding-left: 50px;
+}
+
+
+.ActivitiesColumns{
+    display:grid;
+    grid-template-columns: 1fr ;
+    row-gap: 15px;
+}
+.ActivitiesBox{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    width: 100%;
+}
+.phoneScreen h5{
+    margin-bottom: px;
+}
+.ActivitiesBox img {
+   height: 100%;
+   max-height: 180px;
+}
+
+}
