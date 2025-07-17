@@ -161,6 +161,33 @@ img {
 }
 
 
+/* --------------Quick Link/index Section for Section 3 -----*/
+
+.quickLinks{
+    width: 450px;
+    text-indent: 2em;
+    justify-self:center;
+    font-size: large;
+    margin: 500px, auto;
+    padding: 50px;
+    padding-bottom: 60px;
+    
+}
+.quickLinks h2 {
+    text-align: center;
+}
+.quickLinks a{
+    color:blue;
+    display:block;
+}
+.quickLinks a:hover{
+    color:black;
+}
+#day1 {
+    scroll-margin: 100px;
+}
+
+
 /*----------------------Content Section 3 Itenary By the Day ---------------------------------*/
 
 .webPageContainer2{
