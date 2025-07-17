@@ -1,6 +1,7 @@
 *{
     box-sizing: border-box;
     font-family: Tahoma;
+    scroll-behavior: smooth;
 }
 /*--------- Header/NavBar-------------*/
 header{
@@ -315,6 +316,14 @@ td{
 @media only screen and (min-width:768px){
     .phoneScreen{
         display:none;
+    }
+}
+@media only screen and (min-width:1200px){
+    .aboutSection h2 {
+        padding-top: 50px;
+    }
+    .aboutSection p {
+        padding-bottom: 0px;
     }
 }
 
