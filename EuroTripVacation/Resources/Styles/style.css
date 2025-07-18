@@ -325,12 +325,23 @@ table {
 td{
     padding-left: 10px;
 }
+th{
+    text-align: left;
+    text-indent: 8px;
+}
 .box h2{
     text-align: center;
 }
-.box{
+.mapContainer{
+    border-radius: 25px;
     
-    
+    margin-top: 0px;
+}
+.mapContainer img{
+    border-radius: 25px;
+}
+.mapSection{
+    margin-top: 80px;
 }
 
 
@@ -395,7 +406,88 @@ td{
     padding:  5px 10% 5px 10%;
     
 }
+}
 
+@media only screen and (max-width: 1100px){
+.calanderContainer {
+    display: grid;
+    grid-template-columns: 100%;
+    width:100%;
+    
+    justify-content: center;
+}
+.calanderContainer p{
+    width: 90%;
+    margin: auto;
+    
+}
+.calanderContainer h2 {
+    text-align: center;
+}
+.calanderContainer img {
+    width:100%;
+}
+.imgContainer2{
+    width:80%;
+    margin: auto;
+}
+.webPageContainer2{
+    display:grid;
+    max-width: 100%;
+    
+    grid-template-columns: 1fr 1fr;
+    column-gap: 0;
+    
+}
+.calanderContainerTitle{
+    grid-column: 1/span 2;
+}
+
+.AccomadtionsColumns{
+     width:100%;
+     display:grid;
+    grid-template-columns: 1fr ;
+    
+}
+.AccomodationBox{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    width: 90%;
+    margin: auto;
+}
+.AccomodationBox img {
+    aspect-ratio: 1/1;
+}
+.amenities {
+    padding-left: 50px;
+}
+
+
+.ActivitiesColumns{
+    display:grid;
+    grid-template-columns: 1fr ;
+    row-gap: 15px;
+}
+.ActivitiesBox{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    width: 90%;
+    margin: auto;
+}
+.phoneScreen h5{
+    margin-bottom: px;
+}
+.ActivitiesBox img {
+   
+  aspect-ratio: 1/1;
+}
+.bigScreen{
+    display:none;
+}
+.box{
+    width: 90%;
+    margin: 0;
+}
 
 }
 
@@ -471,7 +563,23 @@ td{
 
 
 
+
+
+
+
+
+
 /*------------ WebPage 2 Section ------ */
+.calanderContainer {
+    display: grid;
+    grid-template-columns: 100%;
+    width:100%;
+    
+}
+.calanderContainer h2 {
+    text-align: center;
+}
+
 .bigScreen{
     display:none;
 }
@@ -481,6 +589,10 @@ td{
     
     grid-template-columns: 1fr;
     column-gap: 0;
+    
+}
+.calanderContainerTitle{
+    grid-column: 1/span 1;
 }
 .box{
     display:none;
@@ -495,9 +607,13 @@ td{
     display:grid;
     grid-template-columns: 1fr 1fr;
     width: 100%;
+    max-height: 180px;
+    
 }
 .AccomodationBox img {
     height: 100%;
+    max-height: 180px;
+    aspect-ratio: 1/1;
 }
 .amenities {
     padding-left: 50px;
