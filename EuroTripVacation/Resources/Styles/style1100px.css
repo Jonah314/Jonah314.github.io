@@ -1,0 +1,82 @@
+@media only screen and (max-width: 1100px){
+.calanderContainer {
+    display: grid;
+    grid-template-columns: 100%;
+    width:100%;
+    
+    justify-content: center;
+}
+.calanderContainer p{
+    width: 85%;
+    margin: auto;
+    
+}
+.calanderContainer h2 {
+    text-align: center;
+}
+.calanderContainer img {
+    width:100%;
+}
+.imgContainer2{
+    width:90%;
+    margin: auto;
+}
+.webPageContainer2{
+    display:grid;
+    max-width: 100%;
+    
+    grid-template-columns: 1fr 1fr;
+    column-gap: 0;
+    
+}
+.calanderContainerTitle{
+    grid-column: 1/span 2;
+}
+
+.AccomadtionsColumns{
+     width:100%;
+     display:grid;
+    grid-template-columns: 1fr ;
+    
+}
+.AccomodationBox{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    width: 90%;
+    margin: auto;
+}
+.AccomodationBox img {
+    aspect-ratio: 1/1;
+}
+.amenities {
+    padding-left: 50px;
+}
+
+
+.ActivitiesColumns{
+    display:grid;
+    grid-template-columns: 1fr ;
+    row-gap: 15px;
+}
+.ActivitiesBox{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    width: 90%;
+    margin: auto;
+}
+.phoneScreen h5{
+    margin-bottom: px;
+}
+.ActivitiesBox img {
+   
+  aspect-ratio: 1/1;
+}
+.bigScreen{
+    display:none;
+}
+.box{
+    width: 90%;
+    margin: 0;
+}
+
+}

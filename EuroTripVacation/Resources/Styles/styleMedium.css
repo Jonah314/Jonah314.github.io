@@ -1,0 +1,57 @@
+/*---------- Responsive sizing ------ */
+@media only screen and (min-width:768px){
+    .phoneScreen{
+        display:none;
+    }
+}
+@media only screen and (min-width:1200px){
+    .aboutSection h2 {
+        padding-top: 50px;
+    }
+    .aboutSection p {
+        padding-bottom: 0px;
+    }
+}
+
+
+/*---------------------------Section for under 1200px -----------*/
+@media only screen and (max-width: 1200px) and (min-width:768px) {
+    /*--------- WebPage 1 Section --------- */
+.WebPageContainer1{
+    display: grid;
+    grid-template-columns: 75%;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    width:100%;
+    justify-content: center;
+
+}
+
+.dayBox{
+    display:grid;
+    grid-template-rows: auto auto auto auto;
+    width:100%;
+    justify-content: center;
+    align-content: center;
+    
+    
+}
+.imgContainer {
+    width: 100%;
+    margin: 0 20% 0 20%;
+}
+
+.dayBox img {
+    width: 60%;
+}
+.dayBox h1{
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+.dayBox h4{
+    margin: 5px;
+}
+.dayBox p{
+    padding:  5px 10% 5px 10%;
+    
+}
+}
