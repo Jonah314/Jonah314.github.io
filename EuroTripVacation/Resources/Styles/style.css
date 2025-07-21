@@ -281,6 +281,8 @@ img {
 }
 .center{
     text-align: center;
+    margin-bottom: 10px;
+    padding: 0 15px;
 }
 
 /*------- ActivitiesBox -------*/
@@ -298,6 +300,9 @@ img {
     background-color: hsla(86, 100%, 64%, 0.2);
     border-radius: 25px;
 }
+.ActivitiesBoxTitle{
+    grid-column: span 2;
+}
 .ActivitiesBox:hover{
     
     border: 1px solid grey;
@@ -305,11 +310,14 @@ img {
 }
 .ActivitiesBox img{
     height: 158px;
+    aspect-ratio: 1/1;
 }
 
 .ActivitiesBox a {
     color:blue;
     align-self: center;
+   
+   
 }
 .ActivitiesBox a:hover{
     color:black;
