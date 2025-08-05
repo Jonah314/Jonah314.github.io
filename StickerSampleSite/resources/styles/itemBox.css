@@ -2,25 +2,61 @@
 
 .itemBox{
     max-width: 300px;
-    height: 500px;
-    background-color: blue;
-    aspect-ratio: 3/5;
-
+    background-color: white;
     display: grid;
+    grid-template-rows:  1fr 111px;
+    border-radius: 25px;
+    margin: auto;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     
-    border: 5px solid green;
+}
+
+.itemBox:hover{
+    transform: scale(1.01);
+}
+.imgBox{
+     width: 100%;
+     border-radius: 25px;
 }
 .itemBox img{
     width: 100%;
-    border: 1px solid red;
     margin: 0;
-    
-
 }
-.itemBox p{
-    border: 1px solid red;
+.description{
+    display:grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+.title h1, p{
+    text-align: center;
 }
 .itemBox h1{
-    border: 1px solid red;
-    margin: 0;
+   
+    margin: 0 auto;
 }
+.price p{
+    margin: 0 auto 5px auto;
+    color: green;
+}
+.size{
+    margin: auto;
+}
+.size p {
+    font-style: italic;
+    color: black;
+    margin:0 auto 0 auto;
+}
+
+button{
+    display:flex;
+    width:70%;
+    justify-content: center;
+    border-radius: 25px;
+    margin: 5px auto 10px;
+    border:1px solid black;
+}
+button:hover{
+    border: 2px solid black;
+}
+
+
+
