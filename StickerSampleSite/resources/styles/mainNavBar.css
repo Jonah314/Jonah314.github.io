@@ -1,0 +1,28 @@
+.navBar{
+    width: 100%;
+    background-color: aqua;
+    height: 50px;
+    position: sticky;
+    top: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.navBar ul li {
+    display: inline-block;
+    padding-left: 15px;
+    font-size: 40px;
+    
+
+}
+ul{
+    margin: 0;
+}
+
+.navBar li+li::before{
+    content: "|  ";
+    color: black;
+}
+.navBar p {
+    display:inline-block;
+}
