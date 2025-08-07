@@ -1,7 +1,42 @@
 .banner{
+    
+    object-fit: cover;
     width: 1200px;
     height: 400px;
-    background-color:red;
-    margin: 0 auto;
+    
+    margin: 15px auto;
+    overflow: hidden;
+    background-position: center;
+    border-radius: 25px;
 
+}
+.imgContainer{
+    width: 1200px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.imgContainer img{
+    max-width: 1200PX;
+    height: auto;
+    object-fit: cover;
+    background-position: center;
+    transform: scale(1.25);
+    z-index: -2;
+}
+
+.titleBox{
+    position: relative;
+    top: -400px;
+    height: 250px;
+    width:1200px;
+    background-color: hsla(0, 0%, 0%, .4);
+    
+    z-index: 1;
+}
+
+.titleBox h1 {
+    color:white;
+    font-size: 100px;
+    text-align: center;
 }
