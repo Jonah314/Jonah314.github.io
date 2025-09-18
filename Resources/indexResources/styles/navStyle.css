@@ -1,0 +1,51 @@
+.navbar{
+    width: 100%;
+    border-bottom:1px solid #2e3105;
+    min-height: 90px;
+    height: 5vw;
+    padding:0;
+    margin:0;
+    
+    background-color: #feffe9;
+
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    align-content: center;
+    align-items:center;
+    justify-items:center;
+}
+.navbar li{
+    display: inline;
+    color: black;
+    text-decoration: none;
+}
+
+.NameContainer {
+    height: 90%;
+    width: 30%;
+    
+    grid-rows-template: 80% 20%;
+    display: grid;
+    margin:0;
+    padding:0;
+    align-content:center;
+    
+}
+.NameContainer p{
+    font-family: 'Brush Script MT', cursive;
+    text-align: center;
+    
+    margin:0;
+    padding:0;
+    text-indent:0;
+    color:#2e3105;
+    font-size: 20px;
+}
+.NameContainer h1{
+    text-align: center;
+    
+    margin: 0;
+    padding:5px 0 0 0;
+    color:#2e3105;
+    font-size: 50px;
+}
