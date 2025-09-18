@@ -76,13 +76,15 @@
     font-size:50px;
     text-align:center;
     margin:0;
+    color:#2e3105;
 }
 .aboutContent p{
     font-size:20px;
-    with:80%;
+    width:80%;
     margin: 0 20px;
     padding:15px 20px;
     text-align: center;
+    color:#2e3105;
 
 }
 
@@ -120,4 +122,26 @@
         grid-template-columns: 1fr 1fr;
         min-height:500px;
     }
+    
+}
+@media only screen and (min-width:1200px){
+    .aboutContent p {
+        width:60%;
+        margin:0 auto;
+        text-align: center;
+        font-size:25px;
+    }
+}
+
+@media only screen and (min-width:1800px){
+    .aboutContent h1{
+        font-size:70px;
+    }
+    
+    .aboutContent p{
+        width:40%;
+        font-size:30px;
+        text-align:left;
+        text-indent:10%;
+        margin: 0 auto;
 }
