@@ -94,6 +94,9 @@
     min-height:600px;
 
   }
+  .bannerImg{
+    max-height:300px;
+  }
 }
 
 @media only screen and (max-width: 900px){
@@ -107,7 +110,7 @@
     }
     .bannerImg{
         grid-row:1;
-        max-height:380px;
+        max-height:340px;
         margin: auto;
 
     }
