@@ -53,6 +53,26 @@
     text-decoration:none;
 }
 
+.NavButton{
+    
+  display: inline-block;
+  margin:0 auto;
+  padding: 12px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #2e3105;
+  background-color: #2e3105;
+  border: 1px solid black;
+  border-radius: 35px;
+  color: #feffe9;
+  width:200px;
+  
+
+}
+
 
 @media only screen and (max-width: 600px) {
 .navRight {
