@@ -1,6 +1,8 @@
+<!DOCTYPE html>
 <html>
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="Resources/indexResources/styles/styleSizeGuide.css">
   <link rel="stylesheet" href="Resources/indexResources/styles/style.css">
   <link rel="stylesheet" href="Resources/indexResources/styles/navStyle.css">
@@ -9,7 +11,7 @@
 <body>
 <!--- NAV BAR-->
   <div>
-    <div class = "NavBar">
+    <div class = "navbar">
       <div class = 'NameContainer'>
         <h1>JONAH</h1>
         <p>Jonathan Thomas Cantu</p>
@@ -19,13 +21,22 @@
         
       </div>
       
-      <div>
-        <ul>
-            <li><a href = "#">Some Example </a></li>
-            <li><a href = "#">Some Example </a></li>
-            
-        </ul>
+      <!-- hamburger Menu
+      <div class =navRight>
+                      
+            <a href="#home" class="active">Logo</a>
+            <div id="myLinks">
+              <a href="#news">Projects</a>
+              <a href="#contact">Contact</a>
+              <a href="#about">About</a>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+          
       </div> 
+    -->
+
     </div>
   </div>
 
@@ -37,7 +48,7 @@
       This page is dedicated to presenting my professional work, 
       demonstrating my technical expertise, and highlighting key accomplishments in my journey toward becoming a well-rounded software engineer.
     </p>
-    <button class="bannerButton">About Me</button>
+    <button class="bannerButton" onClick="document.location = './aboutMe.html'">About Me</button>
    </div>
    
    
@@ -126,6 +137,18 @@
    </footer>
   
   
+
+
+   <script>
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
  
 </body>
 
